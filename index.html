@@ -1,47 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <title>Flexbox Pricing Table</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Modern Pricing Table</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <div class="pricing-container">
-    <div class="pricing-plan">
-      <div class="plan-title">Basic</div>
-      <div class="plan-price">$9.99/month</div>
-      <ul class="plan-features">
-        <li>✅ 10GB Storage</li>
-        <li>✅ 1 User</li>
-        <li>🚫 Support</li>
-      </ul>
-      <button class="plan-button">Sign Up</a>
+
+    <h1 class="heading">Choose Your Perfect Plan</h1>
+
+    <div class="pricing-container">
+
+        <!-- Basic -->
+
+        <div class="pricing-plan">
+
+            <div class="plan-title">Basic</div>
+
+            <div class="plan-price">$9.99<span>/month</span></div>
+
+            <ul class="plan-features">
+                <li>✅ 10GB Storage</li>
+                <li>✅ 1 User</li>
+                <li>🚫 Email Support</li>
+                <li>🚫 Analytics</li>
+            </ul>
+
+            <button class="plan-button">Get Started</button>
+
+        </div>
+
+        <!-- Standard -->
+
+        <div class="pricing-plan popular">
+
+            <div class="badge">Most Popular</div>
+
+            <div class="plan-title">Standard</div>
+
+            <div class="plan-price">$19.99<span>/month</span></div>
+
+            <ul class="plan-features">
+                <li>✅ 50GB Storage</li>
+                <li>✅ 5 Users</li>
+                <li>✅ Email Support</li>
+                <li>✅ Analytics</li>
+            </ul>
+
+            <button class="plan-button">Choose Plan</button>
+
+        </div>
+
+        <!-- Premium -->
+
+        <div class="pricing-plan">
+
+            <div class="plan-title">Premium</div>
+
+            <div class="plan-price">$49.99<span>/month</span></div>
+
+            <ul class="plan-features">
+                <li>✅ 100GB Storage</li>
+                <li>✅ Unlimited Users</li>
+                <li>✅ 24/7 Support</li>
+                <li>✅ Advanced Analytics</li>
+            </ul>
+
+            <button class="plan-button">Buy Now</button>
+
+        </div>
+
     </div>
-    <div class="pricing-plan">
-      <div class="plan-title">Standard</div>
-      <div class="plan-price">$19.99/month</div>
-      <ul class="plan-features">
-        <li>✅ 50GB Storage</li>
-        <li>✅ 5 Users</li>
-        <li>✅ Phone &amp; Email Support</li>
-      </ul>
-      <button class="plan-button">Sign Up</a>
-    </div>
-    <div class="pricing-plan">
-      <div class="plan-title">Premium</div>
-      <div class="plan-price">$49.99/month</div>
-      <ul class="plan-features">
-        <li>✅ 100GB Storage</li>
-        <li>✅ 10 Users</li>
-        <li>✅ 24/7 Support</li>
-      </ul>
-      <button class="plan-button">Sign Up</a>
-    </div>
-  </div>
 
 </body>
 
